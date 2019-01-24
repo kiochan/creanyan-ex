@@ -1,0 +1,37 @@
+{
+  "name": "creanyan-ex",
+  "version": "1.0.0",
+  "description": "HTML5 AVG Game Solution",
+  "main": "./dist/creanyan.js",
+  "types": "./dist/declaration/creanyan.d.ts",
+  "scripts": {
+    "dev": "rollup -c -w --environment BUILD:normal",
+    "build": "rollup -c --silent --environment BUILD:normal && rollup -c --silent --environment BUILD:min",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiochan/creanyan-ex.git"
+  },
+  "author": "StudioASC <cream.asc@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiochan/creanyan-ex/issues"
+  },
+  "homepage": "https://github.com/kiochan/creanyan-ex#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "pixi.js": "^5.0.0-alpha.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "rollup-plugin-uglify": "^6.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}

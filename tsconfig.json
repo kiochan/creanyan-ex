@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+
+        "module": "esnext",
+        "target": "es5",
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise",
+        ],
+        "declaration": true,
+        "declarationDir": "./dist/declaration",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitReturns":true,
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+
+        "sourceMap": true,
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "examples"
+    ]
+}
