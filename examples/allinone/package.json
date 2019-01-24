@@ -1,0 +1,23 @@
+{
+  "name": "creanyan-ex-example",
+  "version": "1.0.0",
+  "description": "Examples for CreaNyan EX",
+  "main": "src/Main.ts",
+  "scripts": {
+    "serve": "rollup -c -w"
+  },
+  "author": "StudioASC <cream.asc@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-serve": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4",
+    "creanyan-ex": "file:../../"
+  }
+}
