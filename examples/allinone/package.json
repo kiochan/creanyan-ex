@@ -19,5 +19,8 @@
     "tslint": "^5.12.1",
     "typescript": "^3.2.4",
     "creanyan-ex": "file:../../"
+  },
+  "devDependencies": {
+    "rollup-plugin-livereload": "^0.6.0"
   }
 }
