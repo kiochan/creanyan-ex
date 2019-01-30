@@ -1,7 +1,7 @@
 /**
  * 舞台屏幕适配策略
  */
-export enum ScreenFitPolicy {
+export enum StageScalePolicy {
 
     /**
      * 完整显示设计分辨率范围内的所有内容。
@@ -18,11 +18,5 @@ export enum ScreenFitPolicy {
      * 保证显示区域设计宽度和屏幕宽度一致，下方向延展到屏幕高度。
      */
     FIXED_WIDTH = 2,
-
-    /**
-     * 屏幕宽度大于高度时，使用 FIXED_HEIGHT 规则。
-     * 屏幕高度大于宽度时，使用 FIXED_WIDTH 规则。
-     */
-    FIXED_AUTO = 3,
 
 }
